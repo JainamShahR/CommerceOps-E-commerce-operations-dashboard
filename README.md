@@ -134,24 +134,6 @@ commerceops-starter/
 └── README.md
 ```
 
-## Screenshots and demo
-
-After running locally, add images of your actual Overview, Products, Orders and Inventory pages into a `screenshots/` folder and link them here. Add your live demo URL if you deploy it. Do **not** claim a deployment or results you haven't verified.
-
-## Known limitations / planned improvements
-
-- JSON-file persistence is appropriate only for a local demo; replace with PostgreSQL or MongoDB before production deployment.
-- No user authentication or role-based authorization yet.
-- Demo order status changes are unrestricted; real businesses need allowed transitions and inventory adjustments.
-- Demo order records are seeded; this starter doesn't create customer checkout orders.
-- Tests cover the analytics and validation helpers; expand with endpoint and React component tests.
-- A production deployment will require hosting the frontend and API separately; set `VITE_API_BASE_URL` when building the frontend for a remote backend.
-
-## Resume bullets (ONLY once you verify each feature)
-
-- Developed a responsive e-commerce dashboard using React.js to manage products, inventory, orders, and sales analytics.
-- Implemented Redux Toolkit and REST API integration for centralized state management, product operations, and order tracking.
-- Built reusable UI components, interactive charts, and responsive layouts for a seamless user experience.
 
 ## License
 
