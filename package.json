@@ -1,0 +1,18 @@
+{
+  "name": "commerceops-starter",
+  "version": "0.1.0",
+  "private": true,
+  "description": "React + Redux Toolkit + Express e-commerce operations dashboard starter",
+  "workspaces": ["client", "server"],
+  "scripts": {
+    "dev": "concurrently -k -n API,WEB -c blue,green \"npm run dev -w server\" \"npm run dev -w client\"",
+    "build": "npm run build -w client",
+    "test": "npm run test -w server",
+    "start": "npm run start -w server",
+    "reset-data": "npm run reset-data -w server"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "engines": { "node": ">=20.19.0" }
+}
